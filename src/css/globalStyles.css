@@ -1,0 +1,34 @@
+:root {
+  --ash-gray: #2d3037;
+  --cadet-grey: #f5f5f7;
+  --black: #000000;
+  --white: #ffffff;
+  --pink: #DD2B85;
+  --celtic-blue: #4c6ef5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cadet-grey);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  text-align: center;
+}
