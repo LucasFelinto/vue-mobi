@@ -30,7 +30,7 @@
         <option value="MASCULINO">MASCULINO</option>
         <option value="FEMENINO">FEMENINO</option>
       </select>
-      <form-input label="Data de nascimento" v-model="age" />
+      <form-input label="Data de nascimento" place="YYYY-MM-DD" v-model="age" />
 
       <div @click.prevent="addMember()">
         <button-submit class="submit">

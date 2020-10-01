@@ -5,6 +5,7 @@
       autocomplete=""
       type="text"
       @input="$emit('input', $event.target.value)"
+      :placeholder="place"
       :value="value"
     />
     <label for="">{{ label }}</label>
@@ -25,6 +26,9 @@ export default {
       required: true,
     },
     value: {
+      type: String,
+    },
+    place: {
       type: String,
     },
   },
